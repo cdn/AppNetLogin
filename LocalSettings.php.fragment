@@ -1,0 +1,7 @@
+# Add more configuration options below.
+
+//define('AppNetAccountFilter', 'paid'); // if you want to restrict editing capability
+
+include_once("$IP/extensions/AppNetLogin/AppNetLogin.php");
+$wgConsumerKey    = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // twitterlogin conflict
+$wgConsumerSecret = 'YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY'; // with variable naming
